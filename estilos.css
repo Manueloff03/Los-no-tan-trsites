@@ -1,0 +1,156 @@
+#principal{
+	width: 900px;
+	height: auto;overflow: hidden;
+	border: 1px solid #000;
+	margin: auto;
+	background: rgba(0, 0, 0, 0.659);
+}
+ header{
+ 	width:900px;
+ 	height:100px;
+ 	border:1px solid#000;
+ }
+ p{
+	 color: whitesmoke;
+ }
+ h2{
+	 color: rgb(255, 233, 233);
+
+ }
+ .titulo{
+	 color: whitesmoke;
+ }
+ #logo{
+ 	width:200px;
+ 	height:100px;
+ 	border:1px solid#1000;
+ 	float:left;
+ }
+
+.menu{
+	width:600px;
+	height: 60px;
+	border:1px solid black;
+	float:right;
+	margin-top:25px;
+	background: white;
+
+}
+.menu li a{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+.menu > li{
+    float: left;
+}
+.menu a:hover{
+    background-color:  rgb(112, 112, 112);
+}
+.menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 180px;
+}
+.menu li:hover > ul{
+    display: block;
+}
+
+
+	.menu ul li{
+		list-style:none;
+		float:left;
+
+	}
+	.menu ul li a{
+		text-decoration:none;
+		padding:10px;
+    }
+    #categorias{
+		width:920px;
+		height:auto;overflow:hidden;
+		border:0px solid;
+		margin-top: 0px;
+	}
+	.uno{
+		width:260px;
+		height:auto;overflow:hidden;
+		border:1px solid black;
+		float:left;
+		padding:2px;
+		margin-right:15px;
+		margin-left:15px;
+    }
+.leer{
+    width: 85px;
+    height: 20px;
+    border: 1px solid black;
+    margin-left: 70px;
+    background-color: rgb(255, 253, 253);
+
+} 
+.nombre{
+    margin-top: 550px;
+    margin-left: 650px;
+
+}
+.container{
+    margin: auto;
+    padding: 0px;
+    width: 850px;
+
+}
+ul, li{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+    ul.slider{
+        position: relative;
+        width: 800px;
+        height: 30px;
+}
+ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: .5s;
+    background:#fff;
+}
+ul.slider li img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; 
+  }
+  
+  ul.slider li:target {
+      opacity: 1;
+  }
+  .slidemenu{
+    text-align: center;
+    margin: 20px;
+    margin-top: 280px;
+}
+.slidemenu li{
+    display: inline-block;
+    text-align: center;
+}
+.slidemenu li a{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color:  rgb(255, 255, 255);
+    padding: 12px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-bottom-left-radius: 100%;
+}
